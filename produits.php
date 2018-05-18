@@ -39,7 +39,7 @@ include_once('include/beginning.php');
                             </div>
                             <div class="bottom-post">
                                 <a class="zoom" href="upload/produitSavon (2).jpg"><i class="fa fa-search"></i></a>
-                                <a href="charbon-actif.php?p=charbon-actif"><i class="fa fa-arrow-right"></i></a>
+                                <a href="produit.php?p=charbon-actif"><i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
