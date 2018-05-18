@@ -49,8 +49,8 @@ $rhassoul  = "<p>Le <strong>rhassoul</strong> est une argile volcanique récolt�
 $sci  = "<p>Le <strong>SCI</strong> (Sodium cocoyl isethionate) est dérivé estérifié des acides gras de l'huile de coco. Il s’agit d’un tensioactif anionique très bien toléré par la peau utilisé pour adoucir les formules de shampooings solides tout en apportant une mousse riche et crémeuse. </p>";
 $matcha  = "<p>Le <strong>thé matcha</strong> est riche en catéchines, des anti-oxydants qui freinent la dégradation du collagène ce qui en fait un excellent agent anti-âge, qui lutte contre le vieillissement de la peau. Anti-inflammatoire, il apaise les peaux sensibles, et les peaux à problèmes. De par sa richesse en tannins, il aide à réguler les peaux grasses, et est également astringent. Il resserre les pores de la peau.</p>";
 $cidre  = "<p>Le <strong>vinaigre de cidre</strong> est naturellement riche en nutriments, vitamines A et B, minéraux (calcium, magnésium, fer, sodium, zinc etc) et enzymes. Il adoucit la peau tiraillée par le calcaire et la pollution. </p>";
-$vitamineE  = "<p>La <strong>Vitamine E</strong>  est un antioxydant naturel extrait de l’huile de tournesol. Elle permet de préserver les huiles et beurres végétaux du rancissement et prolonge la durée de conservation des produits contenants des huiles sensibles. La vitamine E est aussi un excellent actif anti-âge, recommandé pour les peaux sèches et matures.</p>";
-
+$vitamineE  = "<p>La <strong>Vitamine E</strong> est un antioxydant naturel extrait de l’huile de tournesol. Elle permet de préserver les huiles et beurres végétaux du rancissement et prolonge la durée de conservation des produits contenants des huiles sensibles. La vitamine E est aussi un excellent actif anti-âge, recommandé pour les peaux sèches et matures.</p>";
+$lait = "<p>Le <strong>lait de vache</strong> est doux";
 
 /*
  * 
@@ -104,7 +104,7 @@ $tournesol = "<p>L’<strong>huile de tournesol</strong> apporte aux savons un e
   <p>Le <strong>SCI</strong> (Sodium cocoyl isethionate) est dérivé estérifié des acides gras de l'huile de coco. Il s’agit d’un tensioactif anionique très bien toléré par la peau utilisé pour adoucir les formules de shampooings solides tout en apportant une mousse riche et crémeuse. </p>
   <p>Le <strong>thé matcha</strong> est riche en catéchines, des anti-oxydants qui freinent la dégradation du collagène ce qui en fait un excellent agent anti-âge, qui lutte contre le vieillissement de la peau. Anti-inflammatoire, il apaise les peaux sensibles, et les peaux à problèmes. De par sa richesse en tannins, il aide à réguler les peaux grasses, et est également astringent. Il resserre les pores de la peau.</p>
   <p>Le <strong>vinaigre de cidre</strong> est naturellement riche en nutriments, vitamines A et B, minéraux (calcium, magnésium, fer, sodium, zinc etc) et enzymes. Il adoucit la peau tiraillée par le calcaire et la pollution. </p>
-  <p>La <strong>Vitamine E</strong>  est un antioxydant naturel extrait de l’huile de tournesol. Elle permet de préserver les huiles et beurres végétaux du rancissement et prolonge la durée de conservation des produits contenants des huiles sensibles. La vitamine E est aussi un excellent actif anti-âge, recommandé pour les peaux sèches et matures.</p>
+  <p>La <strong>Vitamine E</strong> est un antioxydant naturel extrait de l’huile de tournesol. Elle permet de préserver les huiles et beurres végétaux du rancissement et prolonge la durée de conservation des produits contenants des huiles sensibles. La vitamine E est aussi un excellent actif anti-âge, recommandé pour les peaux sèches et matures.</p>
 
  * 
  * 
@@ -115,10 +115,10 @@ $tournesol = "<p>L’<strong>huile de tournesol</strong> apporte aux savons un e
 
 
 $huileVeg = array("miel-avoine" => array($olive, $coco, $palme, $karite, $ricin),
-    "charbon-actif" => "dddd",
+    "charbon-actif" => array($olive, $coco, $palme, $karite, $ricin),
     "sapin" => array(),
     "coco" => array(),
-    "orange-savon" => array(),
+    "orange-savon" => array($olive, $coco,$karite, $beurreCacao, $ricin, $murumur),
     "rose" => array(),
     "orange-shamp" => array(),
     "lavande" => array(),
@@ -129,17 +129,17 @@ $huileEss = array("miel-avoine" => array(),
     "charbon-actif" => array(),
     "sapin" => array(),
     "coco" => array(),
-    "orange-savon" => array(),
+    "orange-savon" => array($orangeDouce, $pamplemousse,$grainBigarade),
     "rose" => array(),
     "orange-shamp" => array(),
     "lavande" => array(),
     "herbe" => array());
 
-$ajout = array("miel-avoine" => array(),
+$ajout = array("miel-avoine" => array($lait, $avoine, $miel),
     "charbon-actif" => array(),
     "sapin" => array(),
     "coco" => array(),
-    "orange-savon" => array(),
+    "orange-savon" => array($poudreOrange, $ocres),
     "rose" => array(),
     "orange-shamp" => array(),
     "lavande" => array(),
@@ -184,13 +184,13 @@ $ajout = array("miel-avoine" => array(),
                             <p>Les <strong>huiles végétales vierges</strong> et les <strong>huiles essentiels</strong> des savons <strong id="bettersoap">better soap</strong> sont naturels et le plus souvent <strong>bio</strong>. Les ingrédients sont choisis pour leurs <strong>bienfaits</strong>. La <strong>qualité</strong> et la <strong>traçabilité</strong> des ingrédients guident leur sélection. Ils sont une source de <strong>bien-être</strong> lors de chaque douche.</p>
                             <p>Ci-dessous, la liste des ingrédients utilisés.</p>
                             <h2>Les huiles végétales</h2>
-                            <?php
-                            var_dump($origin);
-                             var_dump($huileVeg("charbon-actif"));
+                            <p>origine = <?php
+                            var_dump($origin);?></p>
+                            <p>$huileVeg = <?php var_dump($huileVeg["charbon-actif"]);
                             /*foreach ($huileVeg($origin) as $value) {
                                 echo $value;
                             };*/
-                            ?>
+                            ?></p>
 
 
 
