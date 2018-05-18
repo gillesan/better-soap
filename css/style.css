@@ -813,6 +813,7 @@ ul li {
     color: #727272;
     font-size: 13px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     font-weight: 300;
     line-height: 22px;
     margin: 0;
@@ -1202,6 +1203,7 @@ ul li {
     color: #000000;
     font-size: 13px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     font-weight: 300;
     line-height: 26px;
     clear: both;
@@ -1256,6 +1258,7 @@ ul li {
     color: #4f4f48;
     font-size: 18px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     font-weight: 300;
     line-height: 30px;
     margin: 0;
@@ -1361,6 +1364,7 @@ ul li {
     color: #4f4f48;
     font-size: 18px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     font-weight: 300;
     line-height: 30px;
     margin: 0 0 20px;
@@ -1539,6 +1543,7 @@ ul li {
     //font-size: 18px;
     font-size: 20px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     margin: 0 0 20px;
     line-height: 22px;
 }
@@ -1881,6 +1886,7 @@ ul li {
     color: #4f4f48;
     font-size: 18px;
     font-family: 'Courier New', sans-serif;
+    text-align: justify;
     font-weight: 300;
     margin: 0 0 25px;
     line-height: 30px;
