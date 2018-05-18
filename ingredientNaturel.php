@@ -25,7 +25,7 @@ $geraniumRosat = "<p>L’<strong>huile essentielle de géranium rosat</strong> e
 $lavandeVraie = "<p>L’<strong>huile essentielle de lavande vraie</strong> est l’huile de la détente et du lâcher-prise. Elle est également apaisant pour les peaux irritées ou abîmées. </p>";
 $mandarineRouge = "<p>L’<strong>huile essentielle de mandarine rouge</strong> est calmante et relaxante. Idéale pour combattre le stress et la nervosité.</p>";
 $menthePoivree = "<p>L’<strong>huile essentielle de menthe poivrée</strong> est antalgique et rafraîchissante. </p>";
-$orangeDouce  = "<p>L’<strong>huile essentielle de mandarine rouge</strong> est calmante et relaxante. Idéale pour combattre le stress et la nervosité.</p>";
+$orangeDouce  = "<p>Les <strong>huiles essentielles d’orange douce et d’orange sanguine</strong> sont positivantes et équilibrantes.</p>";
 $pamplemousse  = "<p>L’<strong>huile essentielle de pamplemousse</strong> s’utilise pour assainir les peaux grasses. Son parfum vivifiant apporte optimisme et bonne humeur. </p>";
 $patchouli  = "<p>L’<strong>huile essentielle de patchouli</strong> a des vertus relaxantes et favorise la rêverie.</p>";
 $grainBigarade  = "<p>L’<strong>huile essentielle de petit grain bigarade</strong> est relaxante et équilibrante. </p>";
@@ -50,7 +50,9 @@ $sci  = "<p>Le <strong>SCI</strong> (Sodium cocoyl isethionate) est dérivé est
 $matcha  = "<p>Le <strong>thé matcha</strong> est riche en catéchines, des anti-oxydants qui freinent la dégradation du collagène ce qui en fait un excellent agent anti-âge, qui lutte contre le vieillissement de la peau. Anti-inflammatoire, il apaise les peaux sensibles, et les peaux à problèmes. De par sa richesse en tannins, il aide à réguler les peaux grasses, et est également astringent. Il resserre les pores de la peau.</p>";
 $cidre  = "<p>Le <strong>vinaigre de cidre</strong> est naturellement riche en nutriments, vitamines A et B, minéraux (calcium, magnésium, fer, sodium, zinc etc) et enzymes. Il adoucit la peau tiraillée par le calcaire et la pollution. </p>";
 $vitamineE  = "<p>La <strong>Vitamine E</strong> est un antioxydant naturel extrait de l’huile de tournesol. Elle permet de préserver les huiles et beurres végétaux du rancissement et prolonge la durée de conservation des produits contenants des huiles sensibles. La vitamine E est aussi un excellent actif anti-âge, recommandé pour les peaux sèches et matures.</p>";
-$lait = "<p>Le <strong>lait de vache</strong> est doux";
+$lait = "<p>Le <strong>lait de vache</strong> est utilisé pour sa douceur";
+$boutonRose = "<p>Les <strong>boutons de rose</strong> sont décoratifs et aussi améliorent les problèmes circulatoires";
+$romarinPoudre = "<p>La <strong>poudre de romarin</strong> permet de donner une texture efficace pour le peeling";
 
 /*
  * 
@@ -115,35 +117,41 @@ $tournesol = "<p>L’<strong>huile de tournesol</strong> apporte aux savons un e
 
 
 $huileVeg = array("miel-avoine" => array($olive, $coco, $palme, $karite, $ricin),
-    "charbon-actif" => array($olive, $coco, $palme, $karite, $ricin),
-    "sapin" => array(),
-    "coco" => array(),
+    "charbon-actif" => array($coprah, $tournesol, $avocat, $olive, $palme, $karite, $ricin, $jojoba),
+    "sapin" => array($palme, $coco, $olive, $ricin),
+    "coco" => array($tournesol, $coco, $beurreCacao),
     "orange-savon" => array($olive, $coco,$karite, $beurreCacao, $ricin, $murumur),
-    "rose" => array(),
-    "orange-shamp" => array(),
-    "lavande" => array(),
-    "herbe" => array());
+    "rose" => array($karite, $coprah, $olive, $palme, $beurreCacao),
+    "orange-shamp" => array($ricin),
+    "lavande" => array($olive),
+    "herbe" => array($olive),
+    "baume" => array($murumur, $karite),
+    "automne" => array($coco, $olive, $karite, $ricin, $sonBle));
 
 
 $huileEss = array("miel-avoine" => array(),
-    "charbon-actif" => array(),
-    "sapin" => array(),
+    "charbon-actif" => array($romarinCineole, $teaTree),
+    "sapin" => array($cedreAtlas,$epiceaCommun,$pinSylvestre, $menthePoivree),
     "coco" => array(),
     "orange-savon" => array($orangeDouce, $pamplemousse,$grainBigarade),
-    "rose" => array(),
-    "orange-shamp" => array(),
-    "lavande" => array(),
-    "herbe" => array());
+    "rose" => array($patchouli, $geraniumRosat, $cedreAtlas),
+    "orange-shamp" => array($orangeDouce, $mandarineRouge),
+    "lavande" => array($lavandeVraie, $patchouli),
+    "herbe" => array($teaTree, $romarinCineole, $cedreAtlas),
+    "baume" => array(),
+    "automne" => array($cannelleCeylan, $orangeDouce, $patchouli, $bayStThomas));
 
 $ajout = array("miel-avoine" => array($lait, $avoine, $miel),
-    "charbon-actif" => array(),
-    "sapin" => array(),
-    "coco" => array(),
+    "charbon-actif" => array($matcha, $charbon),
+    "sapin" => array($matcha),
+    "coco" => array($aromatiquesNaturels),
     "orange-savon" => array($poudreOrange, $ocres),
-    "rose" => array(),
-    "orange-shamp" => array(),
-    "lavande" => array(),
-    "herbe" => array());
+    "rose" => array($ocres, $boutonRose),
+    "orange-shamp" => array($sci, $ocres, $naticide),
+    "lavande" => array($sci, $argile),
+    "herbe" => array($csi, $romarinPoudre, $rhassoul),
+    "baume" => array($cire, $miel, $vitamineE, $poudreRose),
+    "automne" => array($cidre, $ocres));
 ?>
 
 <!-- content 
