@@ -1,5 +1,6 @@
 <?php
 include_once('include/beginning.php');
+include_once('include/data.php');
 include_once('include/inclIngrNat.php');
 
 ?>
@@ -12,30 +13,30 @@ include_once('include/inclIngrNat.php');
                 <div class="single-box-content">
                     <div class="project-post-content">
 
-                        <div class="flexslider">
+                        <a href="produit.php?p=<?php echo $origin;?>"><div class="flexslider">
                             <ul class="slides">
                                 <?php echo $sliderIngredient;?>
                             </ul>
-                        </div>
+                        </div></a>
 
                         <div class="project-text">
                             <h1><?php echo $titleh1;?></h1>
                             <?php echo $explIngr;?>
                             <h2>Les huiles végétales</h2>
                             <?php
-                            foreach ($huileVeg[$origin] as $result) {
+                            foreach ($huileVeg as $result) {
                                 echo $result;
                             }
                             ?>
                             <h2>Les huiles essentielles</h2>
                             <?php
-                            foreach ($huileEss[$origin] as $result) {
+                            foreach ($huileEss as $result) {
                                 echo $result;
                             }
                             ?>
                             <h2>Les ajouts</h2>
                              <?php
-                            foreach ($ajout[$origin] as $result) {
+                            foreach ($ajout as $result) {
                                 echo $result;
                             }
                             ?>

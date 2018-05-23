@@ -1,6 +1,6 @@
 <?php
 include_once('include/beginning.php');
-include_once('include/inclProd.php');
+include_once('include/data.php');
 ?>
 
 <!-- content 
@@ -39,24 +39,24 @@ include_once('include/inclProd.php');
 
                             <div id="graphic" style="display: block;">
                                 <ul>
-                                    <a href=<?php echo $data[$page]["hrefIngr"];?>><li>
-                                        <p><?php echo $data[$page]["huileVeg"];?></p>
+                                    <a href="ingredientNaturel.php?p=ingredientNaturel&o=<?php echo $page;?>"><li>
+                                        <p><?php echo $data[$page]["huileVegDescr"];?></p>
                                     </li></a>
                                 </ul>
                             </div>
 
                             <div id="visual" style="display: none;">
                                 <ul>
-                                    <a href=<?php echo $data[$page]["hrefIngr"];?>><li>
-                                        <p><?php echo $data[$page]["huileEss"];?></p>
+                                    <a href="ingredientNaturel.php?p=ingredientNaturel&o=<?php echo $page;?>"><li>
+                                        <p><?php echo $data[$page]["huileEssDescr"];?></p>
                                     </li></a>
                                 </ul>
                             </div>
 
                             <div id="econom" style="display: none;">
                                 <ul>
-                                    <a href=<?php echo $data[$page]["hrefIngr"];?>><li>
-                                        <p><?php echo $data[$page]["ajout"];?></p>
+                                    <a href="ingredientNaturel.php?p=ingredientNaturel&o=<?php echo $page;?>"><li>
+                                        <p><?php echo $data[$page]["ajoutDescr"];?></p>
                                     </li></a>
                                 </ul>
                             </div>
