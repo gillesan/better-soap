@@ -12,7 +12,7 @@ include_once('include/inclIngrNat.php');
             <div class="single-box">
                 <div class="single-box-content">
                     <div class="project-post-content">
-
+               
                         <a href="produit.php?p=<?php echo $origin;?>"><div class="flexslider">
                             <ul class="slides">
                                 <?php echo $sliderIngredient;?>

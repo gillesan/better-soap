@@ -107,15 +107,19 @@ $ajoutALL = array($argile, $avoine, $charbon, $cire, $naticide, $aromatiquesNatu
 
 $data = array(
     "miel-avoine" => array(
-        "titleh1" => "zzzz",
-        "imgSrc" => "",
-        "imgAlt" => "",
+        "titleh1" => "Miel-Avoine - SAVON",
+        "imgSrc267x205" => "upload/produitSavon267x205 (1).jpg",
+        "imgSrcXXXxXXX" => "",
+        
+        "imgAlt" => "Miel-Avoine - SAVON",
         "desc" => "",
         "recomd" => '',
-        "hrefIngr" => "",
-        "huileVeg" => "",
-        "huileEss" => "",
-        "ajout" => ""
+        "huileVegDescr" => "",
+        "huileEssDescr" => "",
+        "ajoutDescr" => "",
+        "huileVeg" => array($olive, $coco, $palme, $karite, $ricin),
+        "huileEss" => array(),
+        "ajout" => array($lait, $avoine, $miel)
     ),
     "charbon-actif" => array(
         "titleh1" => "Charbon Actif - SAVON",
