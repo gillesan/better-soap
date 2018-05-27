@@ -21,9 +21,7 @@ include_once('include/data.php');
                     <div class="border"></div>
                     <div class="service-section offer-section">
                         <h1>Recommend&eacute; pour</h1>
-
-                        <p><?php echo $data[$page]["recomd"];?></p>	 
-                        
+                        <?php echo $data[$page]["recomd"];?>
 
                     </div>
                     <div class="border"></div>

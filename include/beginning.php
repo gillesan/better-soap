@@ -1,5 +1,6 @@
 <?php
 $page = isset($_GET['p']) ? $_GET['p'] : "presentation";
+$origin = isset($_GET['o']) ? $_GET['o'] : "all";
 include_once('include/titleMeta.php');
 ?>
 
@@ -47,12 +48,12 @@ include_once('include/titleMeta.php');
                             }
                             ?>href="index.php"><span>presentation</span></a></li>
                         <li><a <?php
-                            if ($page == 'valeurs' || $page == 'ingredientNaturel' || $page == 'faitMaison' || $page == 'environnement' || $page == 'local') {
+                            if ($page == 'valeurs' || ($page == 'ingredientNaturel'&& $origin == 'all') || $page == 'faitMaison' || $page == 'environnement' || $page == 'local') {
                                 echo 'class="active"';
                             }
                             ?> href="valeurs.php?p=valeurs"><span>valeurs</span></a></li>
                         <li><a <?php
-                            if ($page == 'produits' || $page == 'charbon-actif' || $page == 'coco'  || $page == 'herbe' || $page == 'lavande' || $page == 'miel-avoine' || $page == 'orange-savon' || $page == 'orange-shampoo' || $page == 'rose' || $page == 'sapin' ) {
+                            if ($origin != 'all' || $page == 'produits' || ( $page !='presentation' && $page != 'valeurs' && $page != 'faitMaison' && $page != 'environnement'  && $page != 'local' && $page != 'histoire') && $page != 'contact') {
                                 echo 'class="active"';
                             }
                             ?>href="produits.php?p=produits"><span>produits</span></a></li>

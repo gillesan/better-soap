@@ -23,23 +23,12 @@ include_once('include/inclIngrNat.php');
                             <h1><?php echo $titleh1;?></h1>
                             <?php echo $explIngr;?>
                             <h2>Les huiles végétales</h2>
-                            <?php
-                            foreach ($huileVeg as $result) {
-                                echo $result;
-                            }
-                            ?>
+                            <?php echo $huileVeg;?>
                             <h2>Les huiles essentielles</h2>
-                            <?php
-                            foreach ($huileEss as $result) {
-                                echo $result;
-                            }
-                            ?>
+                            <?php echo $huileEss;?>
+                               
                             <h2>Les ajouts</h2>
-                             <?php
-                            foreach ($ajout as $result) {
-                                echo $result;
-                            }
-                            ?>
+                            <?php echo $ajout;?>
 
                         </div>
 

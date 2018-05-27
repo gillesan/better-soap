@@ -108,35 +108,179 @@ $ajoutALL = array($argile, $avoine, $charbon, $cire, $naticide, $aromatiquesNatu
 $data = array(
     "miel-avoine" => array(
         "titleh1" => "Miel-Avoine - SAVON",
-        "imgSrc267x205" => "upload/produitSavon267x205 (1).jpg",
-        "imgSrcXXXxXXX" => "",
+        "imgSrc267x170" => "upload/produitSavon267x205 (1).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon267x205 (1).jpg", //produits
+        "imgSrc780x396" => "", //ingredientNaturel
         
         "imgAlt" => "Miel-Avoine - SAVON",
-        "desc" => "",
-        "recomd" => '',
-        "huileVegDescr" => "",
-        "huileEssDescr" => "",
-        "ajoutDescr" => "",
+        "desc" => "<p>Sans huiles essentielles, ce savon convient aux peaux les moins tol&eacute;rantes, aux b&eacute;b&eacute;s et aux femmes enceintes.</p>
+                        <p>Le miel booste l'hydratation de la peau et la protège en douceur tandis que l’avoine est une alli&eacute;e pr&eacute;cieuse pour les peaux sensibles, irrit&eacute;es, atopiques et pour le soin des b&eacute;b&eacute;s.</p>	",
+        "recomd" => "<p>Peaux sèches et intol&eacute;rantes</p>	 
+                        <p>B&eacute;b&eacute;s et femmes enceintes </p>",
+        "huileVegDescr" => "huile d’olive, huile de coco, huile de palme, beurre de karité, huile de ricin",
+        "huileEssDescr" => "aucune",
+        "ajoutDescr" => "lait de vache, avoine, miel",
         "huileVeg" => array($olive, $coco, $palme, $karite, $ricin),
-        "huileEss" => array(),
+        "huileEss" => "",
         "ajout" => array($lait, $avoine, $miel)
     ),
     "charbon-actif" => array(
         "titleh1" => "Charbon Actif - SAVON",
-        "imgSrc267x205" => "upload/produitSavon267x205 (2).jpg",
-        "imgSrcXXXxXXX" => "upload/produitSavon267x205 (2).jpg",
-        
+        "imgSrc267x170" => "upload/produitSavon267x205 (1).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon267x205 (1).jpg", //produits
+        "imgSrc780x396" => "", //ingredientNaturel
         "imgAlt" => "Charbon Actif - SAVON",
         "desc" => '<p>Les propri&eacute;t&eacute;s purifiantes et d&eacute;toxifiantes du charbon v&eacute;g&eacute;tal activ&eacute; pr&eacute;sent dans ce savon en font un produit &eacute;tonnant pour les peaux grasses.</p>
                         <p>Combin&eacute; aux vertus purifiantes et d&eacute;toxifiantes des huiles essentielles de romarin à cin&eacute;ole et de tea tree, il est parfait pour les peaux acn&eacute;iques.</p>',
-        "recomd" => "Peaux grasses et acn&eacute;iques",
+        "recomd" => "<p>Peaux grasses et acn&eacute;iques</p>",
         "huileVegDescr" => "huile de coprah, huile de palme, beurre de karité, huile de tournesol, huile d’avocat, huile de ricin, huile de jojoba",
         "huileEssDescr" => "huile essentielle de romarin à cinéole, huile essentielle de tea tree",
         "ajoutDescr" => "thé matcha, charbon végétal activé",
         "huileVeg" => array($coprah, $tournesol, $avocat, $olive, $palme, $karite, $ricin, $jojoba) ,
-        "huileEss" => array() ,
+        "huileEss" => "" ,
         "ajout" => array($matcha, $charbon) 
+    ),
+    "sapin" => array(
+        "titleh1" => "Sapin - SAVON",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Sapin - SAVON",
+        "desc" => "<p>Ce savon aux huiles essentielles de cèdre de l’Atlas, pin sylvestre et menthe poivrée dynamise et tonifie et revigore le corps et stimule l'esprit.</p>",
+        "recomd" => "<p>Tout type de peau</p>",
+        "huileVegDescr" => "huile de palme, huile de coco, huile d’olive, huile de ricin",
+        "huileEssDescr" => "huile essentielle de cèdre de l’Atlas, huile essentielle d’épicéa, huile essentielle de pin sylvestre, huile essentielle de menthe poivrée",
+        "ajoutDescr" => "thé matcha",
+        "huileVeg" => array($palme, $coco, $olive, $ricin),
+        "huileEss" => array($cedreAtlas, $epiceaCommun, $pinSylvestre, $menthePoivree),
+        "ajout" => array($matcha)
+    ),
+    "coco" => array(
+       "titleh1" => "Coco - SAVON",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Coco - SAVON",
+        "desc" => "<p>Ce savon à la douce odeur de noix de coco conviendra à tous les types de peaux.</p>",
+        "recomd" => "<p>Tout type de peau</p> ",
+        "huileVegDescr" => "huile de tournesol, huile de coco, beurre de cacao",
+        "huileEssDescr" => "extrait aromatique coco",
+        "ajoutDescr" => "aucun",
+        "huileVeg" => array($tournesol, $coco, $beurreCacao),
+        "huileEss" => "",
+        "ajout" => array($aromatiquesNaturels)
+    ),
+    "orange-savon" => array(
+        "titleh1" => "Orange - SAVON",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Orange - SAVON",
+        "desc" => "<p>La poudre d’orange présente dans ce savon nettoie la peau en profondeur et apporte un teint lumineux et frais à votre visage. Doux pour la peau, il est particulièrement conseillé pour les peaux sèches.</p>",
+        "recomd" => "<p>Peaux ternes et sèches</p>",
+        "huileVegDescr" => "huile d’olive, huile de coco, beurre de karité, beurre de cacao, huile de ricin, beurre de murumuru",
+        "huileEssDescr" => "huile essentielle d’orange sanguine, huile essentielle de pamplemousse, huile essentielle de petit grain bigarade",
+        "ajoutDescr" => "poudre d’orange, ocre jaune, ocre rouge",
+        "huileVeg" => array($olive, $coco, $karite, $beurreCacao, $ricin, $murumur),
+        "huileEss" => array($orangeDouce, $pamplemousse, $grainBigarade),
+        "ajout" => array($poudreOrange, $ocres)
+    ),
+    "rose" => array(
+        "titleh1" => "Rose - SAVON",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Rose - SAVON",
+        "desc" => "<p>Ce savon au beurre de karité et à l’huile de coco protège et adoucit les peaux sensibles.</p>	
+                        <p>L’ajout d’huile essentielle de géranium rosa en fait un soin parfait pour les peaux sujettes aux rougeurs et aux imperfections.</p>	",
+        "recomd" => "<p>Peaux délicates et abîmées</p>",
+        "huileVegDescr" => "beurre de karité, huile de coprah, huile d’olive, huile de palme, beurre de cacao",
+        "huileEssDescr" => "huile essentielle de patchouli, huile essentielle de géranium rosat, huile essentielle de cèdre de l’Atlas",
+        "ajoutDescr" => "ocre rouge, boutons de rose",
+        "huileVeg" => array($karite, $coprah, $olive, $palme, $beurreCacao),
+        "huileEss" => array($patchouli, $geraniumRosat, $cedreAtlas),
+        "ajout" => array($ocres, $boutonRose)
+    ),
+    "orange-shamp" => array(
+        "titleh1" => "Orange - SHAMPOO",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Orange - SHAMPOO",
+        "desc" => "<p>En Ayurvéda, l'Orange amère est réputée pour ses propriétés cosmétiques astringentes et tonifiantes. Elle apporte brillance, douceur et souplesse aux cheveux.</p>	
+                        <p>La poudre d’orange et l’huile essentielle d’orange sanguine sont ici combinées à l’huile de ricin, parfaite pour réparer et nourrir les cheveux secs, dévitalisés et fourchus.</p>	",
+        "recomd" => "<p>Cheveux ternes - Cassants - Fourchus</p>",
+        "huileVegDescr" => "huile de ricin",
+        "huileEssDescr" => "huile essentielle d’orange sanguine, huile essentielle de mandarine rouge",
+        "ajoutDescr" => "SCI, ocre rouge, ocre jaune, conservateur naticide",
+        "huileVeg" => array($ricin),
+        "huileEss" => array($orangeDouce, $mandarineRouge),
+        "ajout" => array($sci, $ocres, $naticide)
+    ),
+    "lavande" => array(
+        "titleh1" => "Lavande - SHAMPOO",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Lavande - SHAMPOO",
+        "desc" => "<p>L’argile violette et l’huile essentielle de lavande aux vertus réparatrices et apaisantes font de ce shampooing l’allié parfait des cuirs chevelus délicats et irrités.</p>	
+                        <p>Combinées à l’huile d’olive, il apporte force et brillance aux cheveux.</p>",
+        "recomd" => "<p>Cuirs chevelus sensibles ou irrités</p>
+                        <p>Cheveux ternes</p>",
+        "huileVegDescr" => "huile d’olive",
+        "huileEssDescr" => "huile essentielle de lavande vraie, huile essentielle de patchouli",
+        "ajoutDescr" => "SCI, argile violette surfine",
+        "huileVeg" => array($olive),
+        "huileEss" => array($lavandeVraie, $patchouli),
+        "ajout" => array($sci, $argile)
+    ),
+    "herbe" => array(
+        "titleh1" => "Herbes de Provence - SHAMPOO",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Herbes de Provence - SHAMPOO",
+        "desc" => "<p>Ce shampooing est idéal pour les cheveux gras et les pellicules.</p>	
+                        <p>Le rhassoul permet d’absorber les impuretés tandis que l’huile essentielle de romarin à cinéole tonifie le cuir chevelu et les cheveux.</p>	",
+        "recomd" => "<p>Cheveux gras - Pellicules</p>",
+        "huileVegDescr" => "huile d’olive",
+        "huileEssDescr" => "huile essentielle de tea tree, huile essentielle de romarin à cinéole, huile essentielle de cèdre de l’Atlas",
+        "ajoutDescr" => "SCI, romarin en poudre, rhassoul",
+        "huileVeg" => array($olive),
+        "huileEss" => array($teaTree, $romarinCineole, $cedreAtlas),
+        "ajout" => array($sci, $romarinPoudre, $rhassoul)
+    ),
+    "baume" => array(
+        "titleh1" => "Baume à lèvre",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Baume à lèvre",
+        "desc" => "<p>Le beurre végétale hydrate et nourrit les lèvres. Les propriétés cicatrisantes du miel font de ce baume un soin pour les lèvres abîmées</p>",
+        "recomd" => "<p>Lèvres sèches</p>",
+        "huileVegDescr" => "beurre de murumuru, beurre de karité",
+        "huileEssDescr" => "aucune",
+        "ajoutDescr" => "cire d’abeille, miel, vitamine E, poudre de rose de Damas",
+        "huileVeg" => array($murumur, $karite),
+        "huileEss" => "",
+        "ajout" => array($cire, $miel, $vitamineE, $poudreRose)
+    ),
+    "automne" => array(
+        "titleh1" => "Automne - SAVON",
+        "imgSrc267x170" => "upload/.jpg", //produit
+        "imgSrc405x311" => "upload/.jpg", //produits
+        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgAlt" => "Automne - SAVON",
+        "desc" => "<p>Les senteurs d'orange et de cannelle de ce savon vous feront vivre un automne chaleureux.</p>",
+        "recomd" => "<p>Tout type de peau</p>",
+        "huileVegDescr" => "huile de coco, huile d’olive, beurre de karité, huile de ricin, huile de son de blé",
+        "huileEssDescr" => "huile essentielle de cannelle de Ceylan (écorce), huile essentielle d’orange, huile essentielle de patchouli, huile essentielle de Bay de Saint Thomas",
+        "ajoutDescr" => "vinaigre de cidre, ocre rouge",
+        "huileVeg" => array($coco, $olive, $karite, $ricin, $sonBle),
+        "huileEss" => array($cannelleCeylan, $orangeDouce, $patchouli, $bayStThomas),
+        "ajout" => array($cidre, $ocres)
     )
+    
 );
 
 

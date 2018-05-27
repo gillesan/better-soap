@@ -1,6 +1,8 @@
 <?php
 
-$origin = isset($_GET['o']) ? $_GET['o'] : "all";
+$huileVeg = "";
+$huileEss = "";
+$ajout = "";
 if ($origin == "all") {
     $titleh1 = "Ingrédients Naturels";
     $explIngr = '<p>Les cosmétiques industriels nous imposent des substances inadaptées qui sont agressives pour la peau et polluent les eaux.</p>
@@ -24,25 +26,45 @@ if ($origin == "all") {
                                 <li>
                                     <img src="upload/ingredientNaturel (2).jpg" alt="ingredientNaturel"/>
                                 </li>';
-    foreach ($huileVegALL as $result){
-        $huileVeg += "<p>".$result."</p>" ;
+    foreach ($huileVegALL as $result) {
+
+        $huileVeg .= "<p>" . $result . "</p>";
     }
-    foreach ($huileEssALL as $result){
-        $huileEss += "<p>".$result."</p>" ;
+    foreach ($huileEssALL as $result) {
+        $huileEss .= "<p>" . $result . "</p>";
     }
-    foreach ($ajoutALL as $result){
-        $ajout += "<p>".$result."</p>" ;
+    foreach ($ajoutALL as $result) {
+        $ajout .= "<p>" . $result . "</p>";
     }
-    
-    
-    
 } else {
-    $titleh1 = $data[$origin]["titleh1"]." - INGREDIENTS";
+    $titleh1 = $data[$origin]["titleh1"] . " - INGREDIENTS";
     $explIngr = '';
-    $sliderIngredient = '<li><img src="'.$data[$origin]["imgSrcXXXxXXX"].'" alt="'.$data[$origin]["titleh1"].'"/></li>';
-    $huileVeg = $data[$origin]["huileVeg"];
-    $huileEss = $data[$origin]["huileEss"];
-    $ajout = $data[$origin]["ajout"];
+    $sliderIngredient = '<li><img src="' . $data[$origin]["imgSrcXXXxXXX"] . '" alt="' . $data[$origin]["titleh1"] . '"/></li>';
+
+    if ($data[$origin]["huileVeg"] == "") {
+        $huileVeg = "<p>Aucun.</p>";
+    } else {
+        foreach ($data[$origin]["huileVeg"] as $result) {
+
+            $huileVeg .= "<p>" . $result . "</p>";
+        }
+    }
+
+    if ($data[$origin]["huileEss"] == "") {
+        $huileEss = "<p>Aucun.</p>";
+    } else {
+        foreach ($data[$origin]["huileEss"] as $result) {
+            $huileEss .= "<p>" . $result . "</p>";
+        }
+    }
+
+    if ($data[$origin]["ajout"] == "") {
+        $ajout = "<p>Aucun.</p>";
+    } else {
+        foreach ($data[$origin]["ajout"] as $result) {
+            $ajout .= "<p>" . $result . "</p>";
+        }
+    }
 }
 
 
