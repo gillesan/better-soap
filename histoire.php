@@ -11,15 +11,16 @@ include_once('include/beginning.php');
             <div class="about-box">
                 <div class="about-content">
                     <div class="about-section">
-                        <img alt="" src="upload/about.jpg">
+                        <img src="upload/histoire.jpg" alt="histoire"/>
                     </div>
+                    
                     <div class="about-section last-section">
                         <h1>Nous rencontrer</h1>
                         <div class="team-members">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="team-post">
-                                        <img alt="" src="upload/team1.jpg">
+                                    <div class="team-post">                                      
+                                        <img src="upload/pauline.jpg" alt="Pauline"/>
                                         <div class="team-hover">
                                             <div class="team-data">
                                                 <h3>Pauline</h3>
@@ -30,11 +31,11 @@ include_once('include/beginning.php');
                                 </div>
                                 <div class="col-md-6">
                                     <div class="team-post">
-                                        <img alt="" src="upload/team2.jpg">
+                                        <img src="upload/gilles.jpg" alt="Gilles"/>
                                         <div class="team-hover">
                                             <div class="team-data">
                                                 <h3>Gilles</h3>
-                                                <span>...</span>
+                                                <span></span>
                                             </div>
                                         </div>
                                     </div>											
@@ -55,7 +56,7 @@ include_once('include/beginning.php');
                         <p>Sensibilisée par mon histoire personnelle à la problématique des perturbateurs endocriniens et ayant envie de revenir à un rituel beauté plus naturel, j’ai trouvé la réponse dans la saponification à froid. Un processus ancestral, des ingrédients naturel et de qualité, et c’est tout!</p>
                         <p>Les savons que nous vendons maintenant sont le fruit d’une longue série d’essais-erreurs, de modifications et d’améliorations. Chaque nouveau savon apporte son lot d’idées et d’apprentissage, ce qui fait de notre gamme, une gamme en constante évolution.</p>								
                     </div>
-                    <div class="testimonial">
+                 <!--   <div class="testimonial">
                         <h1>Témoignages</h1>
                         <ul>
                             <li>
@@ -87,7 +88,7 @@ include_once('include/beginning.php');
                             <li><a href="#">Certifié Bio Cohérence</a></li>
                             
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

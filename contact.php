@@ -13,29 +13,26 @@ include_once('include/beginning.php');
 
             <div class="contact-box">
                 <div class="contact-info">
-                    <h1>Get in touch with us</h1>
-                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    <h1>Contactez-nous !</h1>
+                    <p>Nous partageons avec plaisir notre passion. Nous aimons en parler et échanger de bons tuyaux.</p>
                 </div>
                 <form id="contact-form">
-                    <h1>Send us a Message</h1>
+                    <h1>Envoyez-nous un message</h1>
                     <div class="text-fields">
                         <div class="float-input">
-                            <input name="name" id="name" type="text" placeholder="Name">
+                            <input name="name" id="name" type="text" placeholder="Nom">
                             <span><i class="fa fa-user"></i></span>
                         </div>
                         <div class="float-input">
                             <input name="mail" id="mail" type="text" placeholder="e-mail">
                             <span><i class="fa fa-envelope-o"></i></span>
                         </div>
-                        <div class="float-input">
-                            <input name="website" id="website" type="text" placeholder="website">
-                            <span><i class="fa fa-link"></i></span>
-                        </div>
+                        
                     </div>
 
                     <div class="submit-area">
                         <textarea name="comment" id="comment" placeholder="Message"></textarea>
-                        <input type="submit" id="submit_contact" class="main-button" value="Send Now">
+                        <input type="submit" id="submit_contact" class="main-button" value="Envoyer">
                         <div id="msg" class="message"></div>
                     </div>
                 </form>
