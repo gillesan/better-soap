@@ -79,8 +79,8 @@ include_once('include/titleMeta.php');
                     </ul>
                     <div class="info">
                         <!-- <a href="#" class="mail">info@better-soap.be<i class="fa fa-envelope-o"></i></a>-->
-                        <p>info@better-soap.be<i class="fa fa-envelope-o"></i></p>
-                        <p class="phone">+32 486 74 43 52<i class="fa fa-phone"></i></p>
+                        <p>info(at)better-soap.be<i class="fa fa-envelope-o"></i></p>
+                        <!--<p class="phone">+32 486 74 43 52<i class="fa fa-phone"></i></p>-->
                     </div>
 
                     <p class="copyright">&#169; <?php echo date("Y"); ?> better soap<br> Droits R&eacute;serv&eacute;</p>

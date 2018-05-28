@@ -37,9 +37,9 @@ if ($origin == "all") {
         $ajout .= "<p>" . $result . "</p>";
     }
 } else {
-    $titleh1 = $data[$origin]["titleh1"] . " - INGREDIENTS";
+    $titleh1 =  "INGREDIENTS : ".$data[$origin]["titleh1"];
     $explIngr = '';
-    $sliderIngredient = '<li><img src="' . $data[$origin]["imgSrcXXXxXXX"] . '" alt="' . $data[$origin]["titleh1"] . '"/></li>';
+    $sliderIngredient = '<li><img src="' . $data[$origin]["imgSrc780x396"] . '" alt="' . $data[$origin]["titleh1"] . '"/></li>';
 
     if ($data[$origin]["huileVeg"] == "") {
         $huileVeg = "<p>Aucun.</p>";

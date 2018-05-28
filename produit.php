@@ -13,7 +13,7 @@ include_once('include/data.php');
                 <div class="service-content">
                     <div class="service-section clearfix">
                         <h1><?php echo $data[$page]["titleh1"];?></h1>
-                        <img src="<?php echo $data[$page]["imgSrc"];?>" alt=<?php echo $data[$page]["imgAlt"];?>/>
+                        <img src="<?php echo $data[$page]["imgSrc267x170"];?>" alt=<?php echo $data[$page]["imgAlt"];?>/>
                         <?php echo $data[$page]["desc"];?>
                         
                         <div class="height"></div>						

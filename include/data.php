@@ -107,10 +107,11 @@ $ajoutALL = array($argile, $avoine, $charbon, $cire, $naticide, $aromatiquesNatu
 
 $data = array(
     "miel-avoine" => array(
+        "page" => "miel-avoine",
         "titleh1" => "Miel-Avoine - SAVON",
-        "imgSrc267x170" => "upload/produitSavon267x205 (1).jpg", //produit
-        "imgSrc405x311" => "upload/produitSavon267x205 (1).jpg", //produits
-        "imgSrc780x396" => "", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (1).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (1).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (1).jpg", //ingredientNaturel
         
         "imgAlt" => "Miel-Avoine - SAVON",
         "desc" => "<p>Sans huiles essentielles, ce savon convient aux peaux les moins tol&eacute;rantes, aux b&eacute;b&eacute;s et aux femmes enceintes.</p>
@@ -125,10 +126,11 @@ $data = array(
         "ajout" => array($lait, $avoine, $miel)
     ),
     "charbon-actif" => array(
+        "page" => "charbon-actif",
         "titleh1" => "Charbon Actif - SAVON",
-        "imgSrc267x170" => "upload/produitSavon267x205 (1).jpg", //produit
-        "imgSrc405x311" => "upload/produitSavon267x205 (1).jpg", //produits
-        "imgSrc780x396" => "", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (2).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (2).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (2).jpg", //ingredientNaturel
         "imgAlt" => "Charbon Actif - SAVON",
         "desc" => '<p>Les propri&eacute;t&eacute;s purifiantes et d&eacute;toxifiantes du charbon v&eacute;g&eacute;tal activ&eacute; pr&eacute;sent dans ce savon en font un produit &eacute;tonnant pour les peaux grasses.</p>
                         <p>Combin&eacute; aux vertus purifiantes et d&eacute;toxifiantes des huiles essentielles de romarin à cin&eacute;ole et de tea tree, il est parfait pour les peaux acn&eacute;iques.</p>',
@@ -141,10 +143,11 @@ $data = array(
         "ajout" => array($matcha, $charbon) 
     ),
     "sapin" => array(
+        "page" => "sapin",
         "titleh1" => "Sapin - SAVON",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (3).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (3).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (3).jpg", //ingredientNaturel
         "imgAlt" => "Sapin - SAVON",
         "desc" => "<p>Ce savon aux huiles essentielles de cèdre de l’Atlas, pin sylvestre et menthe poivrée dynamise et tonifie et revigore le corps et stimule l'esprit.</p>",
         "recomd" => "<p>Tout type de peau</p>",
@@ -156,10 +159,11 @@ $data = array(
         "ajout" => array($matcha)
     ),
     "coco" => array(
+        "page" => "coco",
        "titleh1" => "Coco - SAVON",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (4).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (4).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (4).jpg", //ingredientNaturel
         "imgAlt" => "Coco - SAVON",
         "desc" => "<p>Ce savon à la douce odeur de noix de coco conviendra à tous les types de peaux.</p>",
         "recomd" => "<p>Tout type de peau</p> ",
@@ -171,10 +175,11 @@ $data = array(
         "ajout" => array($aromatiquesNaturels)
     ),
     "orange-savon" => array(
+        "page" => "orange-savon",
         "titleh1" => "Orange - SAVON",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (5).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (5).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (5).jpg", //ingredientNaturel
         "imgAlt" => "Orange - SAVON",
         "desc" => "<p>La poudre d’orange présente dans ce savon nettoie la peau en profondeur et apporte un teint lumineux et frais à votre visage. Doux pour la peau, il est particulièrement conseillé pour les peaux sèches.</p>",
         "recomd" => "<p>Peaux ternes et sèches</p>",
@@ -186,10 +191,11 @@ $data = array(
         "ajout" => array($poudreOrange, $ocres)
     ),
     "rose" => array(
+        "page" => "rose",
         "titleh1" => "Rose - SAVON",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSavon (6).jpg", //produit
+        "imgSrc405x311" => "upload/produitSavon (6).jpg", //produits
+        "imgSrc780x396" => "upload/produitSavon (6).jpg", //ingredientNaturel
         "imgAlt" => "Rose - SAVON",
         "desc" => "<p>Ce savon au beurre de karité et à l’huile de coco protège et adoucit les peaux sensibles.</p>	
                         <p>L’ajout d’huile essentielle de géranium rosa en fait un soin parfait pour les peaux sujettes aux rougeurs et aux imperfections.</p>	",
@@ -202,10 +208,11 @@ $data = array(
         "ajout" => array($ocres, $boutonRose)
     ),
     "orange-shamp" => array(
+        "page" => "orange-shamp",
         "titleh1" => "Orange - SHAMPOO",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitShampoo (1).jpg", //produit
+        "imgSrc405x311" => "upload/produitShampoo (1).jpg", //produits
+        "imgSrc780x396" => "upload/produitShampoo (1).jpg", //ingredientNaturel
         "imgAlt" => "Orange - SHAMPOO",
         "desc" => "<p>En Ayurvéda, l'Orange amère est réputée pour ses propriétés cosmétiques astringentes et tonifiantes. Elle apporte brillance, douceur et souplesse aux cheveux.</p>	
                         <p>La poudre d’orange et l’huile essentielle d’orange sanguine sont ici combinées à l’huile de ricin, parfaite pour réparer et nourrir les cheveux secs, dévitalisés et fourchus.</p>	",
@@ -218,10 +225,11 @@ $data = array(
         "ajout" => array($sci, $ocres, $naticide)
     ),
     "lavande" => array(
+        "page" => "lavande",
         "titleh1" => "Lavande - SHAMPOO",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitShampoo (2).jpg", //produit
+        "imgSrc405x311" => "upload/produitShampoo (2).jpg", //produits
+        "imgSrc780x396" => "upload/produitShampoo (2).jpg", //ingredientNaturel
         "imgAlt" => "Lavande - SHAMPOO",
         "desc" => "<p>L’argile violette et l’huile essentielle de lavande aux vertus réparatrices et apaisantes font de ce shampooing l’allié parfait des cuirs chevelus délicats et irrités.</p>	
                         <p>Combinées à l’huile d’olive, il apporte force et brillance aux cheveux.</p>",
@@ -235,10 +243,11 @@ $data = array(
         "ajout" => array($sci, $argile)
     ),
     "herbe" => array(
+        "page" => "herbe",
         "titleh1" => "Herbes de Provence - SHAMPOO",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitShampoo (3).jpg", //produit
+        "imgSrc405x311" => "upload/produitShampoo (3).jpg", //produits
+        "imgSrc780x396" => "upload/produitShampoo (3).jpg", //ingredientNaturel
         "imgAlt" => "Herbes de Provence - SHAMPOO",
         "desc" => "<p>Ce shampooing est idéal pour les cheveux gras et les pellicules.</p>	
                         <p>Le rhassoul permet d’absorber les impuretés tandis que l’huile essentielle de romarin à cinéole tonifie le cuir chevelu et les cheveux.</p>	",
@@ -251,10 +260,11 @@ $data = array(
         "ajout" => array($sci, $romarinPoudre, $rhassoul)
     ),
     "baume" => array(
+        "page" => "baume",
         "titleh1" => "Baume à lèvre",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitShampoo (3).jpg", //produit
+        "imgSrc405x311" => "upload/produitShampoo (3).jpg", //produits
+        "imgSrc780x396" => "upload/produitShampoo (3).jpg", //ingredientNaturel
         "imgAlt" => "Baume à lèvre",
         "desc" => "<p>Le beurre végétale hydrate et nourrit les lèvres. Les propriétés cicatrisantes du miel font de ce baume un soin pour les lèvres abîmées</p>",
         "recomd" => "<p>Lèvres sèches</p>",
@@ -266,10 +276,11 @@ $data = array(
         "ajout" => array($cire, $miel, $vitamineE, $poudreRose)
     ),
     "automne" => array(
+        "page" => "automne",
         "titleh1" => "Automne - SAVON",
-        "imgSrc267x170" => "upload/.jpg", //produit
-        "imgSrc405x311" => "upload/.jpg", //produits
-        "imgSrc780x396" => "upload/.jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitShampoo (3).jpg", //produit
+        "imgSrc405x311" => "upload/produitShampoo (3).jpg", //produits
+        "imgSrc780x396" => "upload/produitShampoo (3).jpg", //ingredientNaturel
         "imgAlt" => "Automne - SAVON",
         "desc" => "<p>Les senteurs d'orange et de cannelle de ce savon vous feront vivre un automne chaleureux.</p>",
         "recomd" => "<p>Tout type de peau</p>",

@@ -31,6 +31,7 @@ include_once('include/inclIngrNat.php');
                             <?php echo $ajout;?>
 
                         </div>
+                        <p><a href="produit.php?p=<?php echo $origin;?>"><strong id='bettersoap'><?php echo $titleh1;?></strong></a></p>
 
 
                     </div>
