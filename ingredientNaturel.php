@@ -12,12 +12,10 @@ include_once('include/inclIngrNat.php');
             <div class="single-box">
                 <div class="single-box-content">
                     <div class="project-post-content">
+                        
+                        <?php echo $sliderIngredient;?>
                
-                        <a href="produit.php?p=<?php echo $origin;?>"><div class="flexslider">
-                            <ul class="slides">
-                                <?php echo $sliderIngredient;?>
-                            </ul>
-                        </div></a>
+                        
 
                         <div class="project-text">
                             <h1><?php echo $titleh1;?></h1>
@@ -31,7 +29,7 @@ include_once('include/inclIngrNat.php');
                             <?php echo $ajout;?>
 
                         </div>
-                        <p><a href="produit.php?p=<?php echo $origin;?>"><strong id='bettersoap'><?php echo $titleh1;?></strong></a></p>
+                        <p><a href="produit.php?p=<?php echo $origin;?>"><strong id='buttonBack'><?php echo $data[$origin]["titleh1"];?></strong></a></p>
 
 
                     </div>

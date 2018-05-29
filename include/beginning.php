@@ -53,7 +53,7 @@ include_once('include/titleMeta.php');
                             }
                             ?> href="valeurs.php?p=valeurs"><span>valeurs</span></a></li>
                         <li><a <?php
-                            if ($origin != 'all' || $page == 'produits' || ( $page !='presentation' && $page != 'valeurs' && $page != 'faitMaison' && $page != 'environnement'  && $page != 'local' && $page != 'histoire') && $page != 'contact') {
+                            if ($origin != 'all' || $page == 'produits' || ( $page != 'ingredientNaturel' && $page !='presentation' && $page != 'valeurs' && $page != 'faitMaison' && $page != 'environnement'  && $page != 'local' && $page != 'histoire') && $page != 'contact') {
                                 echo 'class="active"';
                             }
                             ?>href="produits.php?p=produits"><span>produits</span></a></li>

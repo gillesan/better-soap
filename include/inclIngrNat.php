@@ -8,7 +8,9 @@ if ($origin == "all") {
     $explIngr = '<p>Les cosmétiques industriels nous imposent des substances inadaptées qui sont agressives pour la peau et polluent les eaux.</p>
                             <p>Les <strong>huiles végétales vierges</strong> et les <strong>huiles essentiels</strong> des savons <strong id="bettersoap">better soap</strong> sont naturels et le plus souvent <strong>bio</strong>. Les ingrédients sont choisis pour leurs <strong>bienfaits</strong>. La <strong>qualité</strong> et la <strong>traçabilité</strong> des ingrédients guident leur sélection. Ils sont une source de <strong>bien-être</strong> lors de chaque douche.</p>
                             <p>Ci-dessous, la liste des ingrédients utilisés.</p>';
-    $sliderIngredient = '<li>
+    $sliderIngredient = '<div class="flexslider">
+                            <ul class="slides">
+                                <li>
                                     <img src="upload/ingredientNaturel (4).jpg" alt="ingredientNaturel"/>
                                 </li>
                                 <li>
@@ -25,7 +27,9 @@ if ($origin == "all") {
                                 </li>
                                 <li>
                                     <img src="upload/ingredientNaturel (2).jpg" alt="ingredientNaturel"/>
-                                </li>';
+                                </li>
+                            </ul>
+                        </div>';
     foreach ($huileVegALL as $result) {
 
         $huileVeg .= "<p>" . $result . "</p>";
@@ -36,10 +40,21 @@ if ($origin == "all") {
     foreach ($ajoutALL as $result) {
         $ajout .= "<p>" . $result . "</p>";
     }
+    
+    
+    
 } else {
+    
+    
+    
+    
     $titleh1 =  "INGREDIENTS : ".$data[$origin]["titleh1"];
     $explIngr = '';
-    $sliderIngredient = '<li><img src="' . $data[$origin]["imgSrc780x396"] . '" alt="' . $data[$origin]["titleh1"] . '"/></li>';
+    $sliderIngredient = '<a href="produit.php?p='.$origin.'"><div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="' . $data[$origin]["imgSrc780x396"] . '" alt="' . $data[$origin]["titleh1"] . '"/></li>
+                            </ul>
+                        </div></a>';
 
     if ($data[$origin]["huileVeg"] == "") {
         $huileVeg = "<p>Aucun.</p>";
