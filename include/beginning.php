@@ -23,7 +23,9 @@ include_once('include/titleMeta.php');
         <link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+        
 
     </head>
     <body>

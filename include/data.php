@@ -259,7 +259,7 @@ $data = array(
         "huileEss" => array($teaTree, $romarinCineole, $cedreAtlas),
         "ajout" => array($sci, $romarinPoudre, $rhassoul)
     ),
-    "baume" => array(
+    /*"baume" => array(
         "page" => "baume",
         "titleh1" => "Baume à lèvre",
         "imgSrc267x170" => "upload/produitShampoo (3).jpg", //produit
@@ -290,7 +290,7 @@ $data = array(
         "huileVeg" => array($coco, $olive, $karite, $ricin, $sonBle),
         "huileEss" => array($cannelleCeylan, $orangeDouce, $patchouli, $bayStThomas),
         "ajout" => array($cidre, $ocres)
-    )
+    )*/
     
 );
 

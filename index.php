@@ -11,7 +11,7 @@ include_once('include/beginning.php');
             <div class="blog-box">
                 
                 
-                
+                <!-- blog-post 1 -->
                 <div class="blog-post quote-post">
                     <div class="inner-post">
                         <div class="post-content">
@@ -23,7 +23,7 @@ include_once('include/beginning.php');
                     </div>
                 </div>
 
-                <!-- blog-post -->
+                <!-- blog-post 2 -->
                 <div class="blog-post gallery-post">
                     <div class="inner-post">
                         <div class="flexslider">
@@ -45,17 +45,19 @@ include_once('include/beginning.php');
                     </div>
                 </div>
 
-                <!-- blog-post -->
+                <!-- blog-post 3 -->
                 <div class="blog-post link-post">
                     <div class="inner-post">
                         <div class="post-content">
-                            <p>Méthode de fabrication saponification à froid</p>
+                            <p><a href = "faitMaison.php?p=faitMaison">Méthode de fabrication saponification à froid</a></p>
 
                         </div>
                     </div>
                 </div>
 
-                <!-- blog-post -->
+               
+
+                <!-- blog-post 5 -->
                 <div class="blog-post photo-post">
                     <div class="inner-post">
                         <div class="view view-first"> 
@@ -70,22 +72,7 @@ include_once('include/beginning.php');
                     </div>
                 </div>
 
-                <!-- blog-post -->
-                <div class="blog-post photo-post">
-                    <div class="inner-post">
-                        <div class="view view-first"> 
-
-                            <img src="upload/savonPresentation (5).jpg" alt=""/>
-                            <div class="mask"> 
-                                <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (5).jpg"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- blog-post -->
+                <!-- blog-post 6 -->
                 <div class="blog-post quote-post">
                     <div class="inner-post">
                         <div class="post-content">
@@ -97,7 +84,7 @@ include_once('include/beginning.php');
                     </div>
                 </div>
 
-                <!-- blog-post -->
+                <!-- blog-post 7 -->
                 <div class="blog-post photo-post">
                     <div class="inner-post">
                         <div class="view view-first"> 
@@ -114,7 +101,7 @@ include_once('include/beginning.php');
 
 
 
-                <!-- blog-post -->
+                <!-- blog-post 8 -->
                 <div class="blog-post gallery-post">
                     <div class="inner-post">
                         <div class="flexslider">
@@ -134,7 +121,7 @@ include_once('include/beginning.php');
 
                     </div>
                 </div>
-                <!-- blog-post -->
+                <!-- blog-post 9 -->
                 <div class="blog-post photo-post">
                     <div class="inner-post">
                         <div class="view view-first"> 
@@ -147,7 +134,7 @@ include_once('include/beginning.php');
                         </div>
                     </div>
                 </div>
-                <!-- blog-post -->
+                <!-- blog-post 10 -->
                 <div class="blog-post aside-post">
                     <div class="inner-post">
                         <div class="post-content">
@@ -156,32 +143,9 @@ include_once('include/beginning.php');
                         </div>
                     </div>
                 </div>
-                <!-- blog-post -->
-                <div class="blog-post photo-post">
-                    <div class="inner-post">
-                        <div class="view view-first"> 
-                            <img src="upload/savonPresentation (12).jpg" alt=""/>
-                            <div class="mask"> 
-                                <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (12).jpg"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- blog-post -->
-                <div class="blog-post photo-post">
-                    <div class="inner-post">
-                        <div class="view view-first"> 
-                            <img src="upload/savonPresentation (11).jpg" alt=""/>
-                            <div class="mask"> 
-                                <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (11).jpg"><i class="fa fa-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                 
+                
 
             </div>
 
