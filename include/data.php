@@ -106,7 +106,7 @@ $ajoutALL = array($argile, $avoine, $charbon, $cire, $naticide, $aromatiquesNatu
 
 
 $data = array(
-    "miel-avoine" => array(
+    /*"miel-avoine" => array(
         "page" => "miel-avoine",
         "titleh1" => "Miel-Avoine - SAVON",
         "imgSrc267x170" => "upload/produitSavon (1).jpg", //produit
@@ -141,13 +141,13 @@ $data = array(
         "huileVeg" => array($coprah, $tournesol, $avocat, $olive, $palme, $karite, $ricin, $jojoba) ,
         "huileEss" => "" ,
         "ajout" => array($matcha, $charbon) 
-    ),
+    ),*/
     "sapin" => array(
         "page" => "sapin",
         "titleh1" => "Sapin - SAVON",
-        "imgSrc267x170" => "upload/produitSavon (3).jpg", //produit
-        "imgSrc405x311" => "upload/produitSavon (3).jpg", //produits
-        "imgSrc780x396" => "upload/produitSavon (3).jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitSapin267x170.jpg", //produit
+        "imgSrc405x311" => "upload/produitSapin405x311.jpg", //produits
+        "imgSrc780x396" => "upload/produitSapin780x396.jpg", //ingredientNaturel
         "imgAlt" => "Sapin - SAVON",
         "desc" => "<p>Ce savon aux huiles essentielles de cèdre de l’Atlas, pin sylvestre et menthe poivrée dynamise et tonifie et revigore le corps et stimule l'esprit.</p>",
         "recomd" => "<p>Tout type de peau</p>",
@@ -158,7 +158,7 @@ $data = array(
         "huileEss" => array($cedreAtlas, $epiceaCommun, $pinSylvestre, $menthePoivree),
         "ajout" => array($matcha)
     ),
-    "coco" => array(
+    /*"coco" => array(
         "page" => "coco",
        "titleh1" => "Coco - SAVON",
         "imgSrc267x170" => "upload/produitSavon (4).jpg", //produit
@@ -173,13 +173,13 @@ $data = array(
         "huileVeg" => array($tournesol, $coco, $beurreCacao),
         "huileEss" => "",
         "ajout" => array($aromatiquesNaturels)
-    ),
+    ),*/
     "orange-savon" => array(
         "page" => "orange-savon",
         "titleh1" => "Orange - SAVON",
-        "imgSrc267x170" => "upload/produitSavon (5).jpg", //produit
-        "imgSrc405x311" => "upload/produitSavon (5).jpg", //produits
-        "imgSrc780x396" => "upload/produitSavon (5).jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitOrangeSa267x170.jpg", //produit
+        "imgSrc405x311" => "upload/produitOrangeSa405x311.jpg", //produits
+        "imgSrc780x396" => "upload/produitOrangeSa780x396.jpg", //ingredientNaturel
         "imgAlt" => "Orange - SAVON",
         "desc" => "<p>La poudre d’orange présente dans ce savon nettoie la peau en profondeur et apporte un teint lumineux et frais à votre visage. Doux pour la peau, il est particulièrement conseillé pour les peaux sèches.</p>",
         "recomd" => "<p>Peaux ternes et sèches</p>",
@@ -193,9 +193,9 @@ $data = array(
     "rose" => array(
         "page" => "rose",
         "titleh1" => "Rose - SAVON",
-        "imgSrc267x170" => "upload/produitSavon (6).jpg", //produit
-        "imgSrc405x311" => "upload/produitSavon (6).jpg", //produits
-        "imgSrc780x396" => "upload/produitSavon (6).jpg", //ingredientNaturel
+        "imgSrc267x170" => "upload/produitRose267x170.jpg", //produit
+        "imgSrc405x311" => "upload/produitRose405x311.jpg", //produits
+        "imgSrc780x396" => "upload/produitRose780x396.jpg", //ingredientNaturel
         "imgAlt" => "Rose - SAVON",
         "desc" => "<p>Ce savon au beurre de karité et à l’huile de coco protège et adoucit les peaux sensibles.</p>	
                         <p>L’ajout d’huile essentielle de géranium rosa en fait un soin parfait pour les peaux sujettes aux rougeurs et aux imperfections.</p>	",
@@ -207,7 +207,7 @@ $data = array(
         "huileEss" => array($patchouli, $geraniumRosat, $cedreAtlas),
         "ajout" => array($ocres, $boutonRose)
     ),
-    "orange-shamp" => array(
+    /*"orange-shamp" => array(
         "page" => "orange-shamp",
         "titleh1" => "Orange - SHAMPOO",
         "imgSrc267x170" => "upload/produitShampoo (1).jpg", //produit
@@ -258,7 +258,7 @@ $data = array(
         "huileVeg" => array($olive),
         "huileEss" => array($teaTree, $romarinCineole, $cedreAtlas),
         "ajout" => array($sci, $romarinPoudre, $rhassoul)
-    ),
+    ),*/
     /*"baume" => array(
         "page" => "baume",
         "titleh1" => "Baume à lèvre",

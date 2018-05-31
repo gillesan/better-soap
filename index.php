@@ -116,7 +116,7 @@ include_once('include/beginning.php');
                         </div>
                         <div class="post-content">
                             <h2><a href="produits.php?p=produits">Shampoo</a></h2>
-                            <p>Saponification à froid, huiles essentielles, huiles végétale, couleurs naturelles, ... </p>
+                            <p>Fabriqué avec des ingrédients naturels uniquement</p>
                         </div>
 
                     </div>
@@ -138,7 +138,7 @@ include_once('include/beginning.php');
                 <div class="blog-post aside-post">
                     <div class="inner-post">
                         <div class="post-content">
-                            <h2>Fait maison</h2>
+                            <h2><a href = "faitMaison.php?p=faitMaison" style="color: white;">Fait maison</a></h2>
                             <p>Savoir ce qu'il y a dans notre assiette est aussi important que de savoir ce qu'il y a dans notre savon</p>
                         </div>
                     </div>

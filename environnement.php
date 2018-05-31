@@ -26,7 +26,7 @@ include_once('include/photoValeurs.php');
 
                         <div class="project-text">
                             <h1>Sauvegarde de notre environnement</h1>
-                            <p>La profusion des emballages non-recyclables qui est imposée par la grande distribution devient intolérable. Les emballages plastiques nécessaire au stockage et transport des cosmétiques industriels créent un déchet qui représente plus de la moitié du poids du savon lui-même.</p>
+                            <p>La profusion des emballages non-recyclables qui est imposée par la grande distribution devient intolérable. Les emballages plastiques utilisés pour le stockage et transport des cosmétiques industriels créent un déchet qui représente plus de la moitié du poids du savon lui-même.</p>
                             <p>Les gels douches, de par leurs ingrédients, rejettent dans les eaux usées des polluants tels l’EDTA, les plastiques, les PE qui ne peuvent pas être éliminés par les stations d’épuration et se retrouvent dans le milieu naturel. Ils finissent par se retrouver dans notre nourriture et dans l’eau que nous buvons.</p>
                             <p>Les <strong>savons et shampoings solides</strong> permettent un emballage composé de <strong>papiers et cartons</strong> (recyclés et recyclables).</p> 
                             <p>La traçabilité des ingrédients permet de contrôler l’<strong>impact de leur culture</strong> sur l’environnement. Les productions peu énergivores et locales limitent considérablement l’<strong>impact en gaz à effet de serre.</strong></p>

@@ -15,7 +15,7 @@ include_once('include/beginning.php');
                         <h1>Nos Valeurs</h1>
                         <img src="upload/bulleSavon.jpg" alt="bulleSavon"/>
                         <p>Les <strong>cosmétiques artisanaux</strong> sont écologiques en plus des nombreux bienfaits pour la peau.</p>
-                        <p> Découvrez les 4 valeurs qui guident <strong id="bettersoap">better soap</strong> : le choix des <strong>ingrédients</strong>, le <strong>fait-maison</strong>, l’impact sur l’<strong>environnement</strong> et le <strong>local</strong>.</p>
+                        <p> Découvrez les 3 valeurs qui guident <strong id="bettersoap">better soap</strong> : le choix des <strong>ingrédients</strong>, le <strong>fait-maison</strong> et l’impact sur l’<strong>environnement</strong>.</p>
                         <div class="height"></div>						
                     </div>
                     <div class="border"></div>

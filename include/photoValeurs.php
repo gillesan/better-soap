@@ -30,7 +30,6 @@ $photos = array(
         "emballageBetterSoap780x396" => array(
             "upload/emballageBetterSoap780x396_2.jpg",
             "upload/emballageBetterSoap780x396_1.jpg",
-            "upload/emballageBetterSoap780x396_0.jpg",
             "upload/emballageBetterSoap780x396_3.jpg",
         ),
         "pollution" => array(
