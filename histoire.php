@@ -23,7 +23,7 @@ include_once('include/beginning.php');
                                         <img src="upload/pauline.jpg" alt="Pauline"/>
                                         <div class="team-hover">
                                             <div class="team-data">
-                                                <h3>Pauline</h3>
+                                                <h3><a href="contact.php?p=contact" style="color: black;">Pauline</a></h3>
                                                 <span>Le perfectionnement de chaque recette</span>
                                             </div>
                                         </div>
@@ -34,8 +34,8 @@ include_once('include/beginning.php');
                                         <img src="upload/gilles.jpg" alt="Gilles"/>
                                         <div class="team-hover">
                                             <div class="team-data">
-                                                <h3>Gilles</h3>
-                                                <span></span>
+                                                <h3><a href="contact.php?p=contact" style="color: black;">Gilles</a></h3>
+                                                <span>La réduction de mon impact sur l'environnement</span>
                                             </div>
                                         </div>
                                     </div>											
