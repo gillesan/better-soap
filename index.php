@@ -29,10 +29,10 @@ include_once('include/beginning.php');
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src="upload/savonPresentation (8).jpg" alt=""/>
+                                    <img src="upload/savonPresentation(8).jpg" alt=""/>
                                 </li>
                                 <li>
-                                    <img src="upload/savonPresentation (9).jpg" alt=""/>
+                                    <img src="upload/savonPresentation(9).jpg" alt=""/>
                                 </li>
 
                             </ul>
@@ -62,10 +62,10 @@ include_once('include/beginning.php');
                     <div class="inner-post">
                         <div class="view view-first"> 
 
-                            <img src="upload/savonPresentation (5).jpg" alt=""/>
+                            <img src="upload/savonPresentation(5).jpg" alt=""/>
                             <div class="mask"> 
                                 <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (5).jpg"><i class="fa fa-plus"></i></a>
+                                    <a class="zoom" href="upload/savonPresentation(5).jpg"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -89,10 +89,10 @@ include_once('include/beginning.php');
                     <div class="inner-post">
                         <div class="view view-first"> 
 
-                            <img src="upload/savonPresentation (3).jpg" alt=""/>
+                            <img src="upload/savonPresentation(3).jpg" alt=""/>
                             <div class="mask"> 
                                 <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (3).jpg"><i class="fa fa-plus"></i></a>
+                                    <a class="zoom" href="upload/savonPresentation(3).jpg"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -107,10 +107,10 @@ include_once('include/beginning.php');
                         <div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src="upload/shampooPresentation (1).jpg" alt=""/>
+                                    <img src="upload/shampooPresentation(1).jpg" alt=""/>
                                 </li>
                                 <li>
-                                    <img src="upload/shampooPresentation (2).jpg" alt=""/>
+                                    <img src="upload/shampooPresentation(2).jpg" alt=""/>
                                 </li>
                             </ul>
                         </div>
@@ -125,10 +125,10 @@ include_once('include/beginning.php');
                 <div class="blog-post photo-post">
                     <div class="inner-post">
                         <div class="view view-first"> 
-                            <img src="upload/savonPresentation (7).jpg" alt=""/>
+                            <img src="upload/savonPresentation(7).jpg" alt=""/>
                             <div class="mask"> 
                                 <div class="i-icons">
-                                    <a class="zoom" href="upload/savonPresentation (7).jpg"><i class="fa fa-plus"></i></a>
+                                    <a class="zoom" href="upload/savonPresentation(7).jpg"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>

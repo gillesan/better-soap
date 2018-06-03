@@ -11,22 +11,22 @@ if ($origin == "all") {
     $sliderIngredient = '<div class="flexslider">
                             <ul class="slides">
                                 <li>
-                                    <img src="upload/ingredientNaturel (4).jpg" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(4).jpg" alt="ingredientNaturel"/>
                                 </li>
                                 <li>
-                                    <img src="upload/ingredientNaturel (5).JPG" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(5).JPG" alt="ingredientNaturel"/>
                                 </li>
                                 <li>
-                                    <img src="upload/ingredientNaturel (3).jpg" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(3).jpg" alt="ingredientNaturel"/>
                                 </li> 
                                 <li>
-                                    <img src="upload/ingredientNaturel (6).jpg" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(6).jpg" alt="ingredientNaturel"/>
                                 </li>
                                 <li>
-                                    <img src="upload/ingredientNaturel (1).jpg" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(1).jpg" alt="ingredientNaturel"/>
                                 </li>
                                 <li>
-                                    <img src="upload/ingredientNaturel (2).jpg" alt="ingredientNaturel"/>
+                                    <img src="upload/ingredientNaturel(2).jpg" alt="ingredientNaturel"/>
                                 </li>
                             </ul>
                         </div>';

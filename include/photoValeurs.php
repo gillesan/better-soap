@@ -6,6 +6,7 @@ $photos = array(
             "upload/artisanat780x396_0.jpg",
             "upload/artisanat780x396_1.jpg",
             "upload/artisanat780x396_2.jpg",
+           
         ),
         "saponification" => array(
             "saponification118x117" => array(
@@ -28,9 +29,10 @@ $photos = array(
     ),
     "environnement" => array(
         "emballageBetterSoap780x396" => array(
-            "upload/emballageBetterSoap780x396_2.jpg",
-            "upload/emballageBetterSoap780x396_1.jpg",
-            "upload/emballageBetterSoap780x396_3.jpg",
+            "upload/emballageBS780x396_2.jpg",
+            "upload/emballageBS780x396_1.jpg",
+            "upload/emballageBS780x396_3.jpg",
+            
         ),
         "pollution" => array(
             "pollution118x117" => array(
